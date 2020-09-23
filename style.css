@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+canvas {
+    display: block;
+}
+/* h1 {
+    position: absolute;
+    top: 0.25em;
+    left: 0.25em;
+    font-size: 7em;
+    text-transform: uppercase;
+    width: auto;
+    line-height: .8em;
+    border: 5px solid black;
+    padding: .2em;
+}
+.container {
+    position: absolute;
+    top: 0.25em;
+    left: 0.25em;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: auto;
+    line-height: .8em;
+    border: 5px solid black;
+    padding: .2em; 
+} */
+
+.card {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    font-size: 2em;
+    /* text-transform: uppercase; */
+    width: auto;
+    height: 40vw;
+    line-height: 1.25em;
+    border: 5px solid white;
+    padding: .2em; 
+}
+.card-title{
+    font-size: 10rem;
+    color: white;
+}
+button {
+    position: absolute;
+    top: 35em;
+    left: 80em;
+    text-transform: uppercase;
+    width: 15vw;
+    height: 10vw;
+    line-height: 0.8em;
+    padding: .2em;  
+}
+span {
+    font-size: 2rem;
+}
+#paragraph{
+    color: white;
+}
