@@ -1,11 +1,113 @@
 body {
     margin: 0;
     height: 100vh;
+    position: relative;
 }
+
 canvas {
     display: block;
 }
-/* h1 {
+ul {
+    list-style: none;
+    display: flex;
+}
+li{
+    /* margin: 1vw; */
+}
+
+.container {
+    position: relative;
+
+}
+#card {
+    display: block;
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    border: 2px solid #ffffff;   
+    margin: 0 auto;
+}
+h1 {
+    font-size: 5vw;
+    color: #ffffff;
+}
+p{
+    font-size: 2vw;
+    color: #ffffff;
+}
+#card-2 {
+    display: block; 
+    position: absolute;
+    bottom: 0vw;
+    right: 0vw;
+    /* border: 2px solid red;  */
+}
+.button {
+width: 15vw;
+height: 15vw;
+font-size: 2vw;
+display: block; 
+margin: 0 auto ;
+border-radius: 2vw;
+background-color: red;
+color: #ffffff;
+}
+#wrapper {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+#wrapper ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+#wrapper li {
+    float: left;
+    padding: 2px 5px;
+    /* border: 1px solid black; */
+}
+img {
+    width: 10vw;
+    height: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+h1 {
     position: absolute;
     top: 0.25em;
     left: 0.25em;
@@ -26,18 +128,18 @@ canvas {
     line-height: .8em;
     border: 5px solid black;
     padding: .2em; 
-} */
+}
 
 .card {
     position: absolute;
     top: 1em;
     left: 1em;
     font-size: 2em;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     width: auto;
     height: 40vw;
     line-height: 1.25em;
-    border: 5px solid white;
+    border: 1vw solid white;
     padding: .2em; 
 }
 .card-title{
@@ -46,7 +148,7 @@ canvas {
 }
 button {
     position: absolute;
-    top: 35em;
+    top: 25em;
     left: 80em;
     text-transform: uppercase;
     width: 15vw;
@@ -60,3 +162,25 @@ span {
 #paragraph{
     color: white;
 }
+#android {
+    position: absolute;
+    top: 33em;
+    left: 78em;
+    text-transform: uppercase;
+    width: 15vw;
+    height: 10vw;
+    line-height: 0.8em;
+    padding: .2em; 
+    list-style-type: none;
+}
+#mac {
+    position: absolute;
+    top: 33em;
+    left: 88em;
+    text-transform: uppercase;
+    width: 15vw;
+    height: 10vw;
+    line-height: 0.8em;
+    padding: .2em; 
+    list-style-type: none; */
+/* } */
